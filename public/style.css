@@ -31,6 +31,6 @@ section:nth-child(6)>img{
     border-radius: 50%;
 }
 /*exo7*/
-section:last-child>p:hover{
+section:nth-child(7)>p:hover{
     color: green;
 }
