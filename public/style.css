@@ -1,3 +1,4 @@
+/*ex01*/
 section{
     padding-bottom: 50px;
     border-bottom: black solid 1px;
@@ -6,14 +7,30 @@ section:first-child>h4{
     color: blue;
 
 }
-section+section{
+/*ex2*/
+section:nth-child(2){
     border-bottom:solid red ;
 
 }
-h3,h3+ul{
+/*ex3*/
+section:nth-child(3)>h3,section:nth-child(3)>ul{
    color: red;
 }
-
-section:nth-child(4)>ul>li:nth-child(2){
-size: 25px;
+/*ex4*/
+/*ul>:nth-child*/
+section:nth-child(4)>ul>li>a{
+font-size: 25px;
+}
+/*exo5*/
+section:nth-child(5)>h3+span{
+    color: blue;
+}
+/*exo6*/
+section:nth-child(6)>img{
+    border: solid;
+    border-radius: 50%;
+}
+/*exo7*/
+section:last-child>p:hover{
+    color: green;
 }
